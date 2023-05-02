@@ -12,11 +12,6 @@ import ForgetPasswordPage from '../pages/Authentication/ForgetPassword';
 import Logout from '../pages/Authentication/Logout';
 import Register from '../pages/Authentication/Register';
 
-// User Profile
-import UserProfile from '../pages/Authentication/user-profile';
-
-import ToDoList from '../pages/ToDo';
-import Clients from '../pages/Account/Clients';
 import Dashboard from '../pages/Dashboard/Dashboard';
 import Factures from '../pages/Factures/Factures';
 import Domains from '../pages/Domains/Domains';
@@ -26,7 +21,7 @@ import Faqs from '../pages/pages/Faqs/Faqs';
 
 const authProtectedRoutes = [
   // { path: '/clients', component: <Clients /> },
-  { path: '/apps-todo', component: <ToDoList /> },
+  // { path: '/apps-todo', component: <ToDoList /> },
   { path: '/dashboard', component: <Dashboard /> },
   { path: '/factures', component: <Factures /> },
   { path: '/domains', component: <Domains /> },

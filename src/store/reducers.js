@@ -12,7 +12,7 @@ import UpdateUser from './auth/update/reducer';
 import ResetPassword from './auth/resetpwd/reducer';
 
 // To do
-import Todos from './todos/reducer';
+// import Todos from './todos/reducer';
 
 const rootReducer = combineReducers({
   // public
@@ -21,7 +21,7 @@ const rootReducer = combineReducers({
   Account,
   ForgetPassword,
   Profile,
-  Todos,
+  // Todos,
   UpdateUser,
   ResetPassword,
 });

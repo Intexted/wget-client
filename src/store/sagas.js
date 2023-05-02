@@ -8,7 +8,7 @@ import ForgetSaga from './auth/forgetpwd/saga';
 import ProfileSaga from './auth/profile/saga';
 
 // To do
-import todos from './todos/saga';
+// import todos from './todos/saga';
 import updateSaga from './auth/update/saga';
 import resetSaga from './auth/resetpwd/saga';
 
@@ -20,7 +20,7 @@ export default function* rootSaga() {
     fork(AuthSaga),
     fork(ForgetSaga),
     fork(ProfileSaga),
-    fork(todos),
+    // fork(todos),
     fork(updateSaga),
     fork(resetSaga),
   ]);
